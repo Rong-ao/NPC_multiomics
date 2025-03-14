@@ -7,17 +7,19 @@ Citation is still unpublished.
 
 __Thanks [@silentFUSU](https://github.com/silentFUSU) for creating parts of scripts and contribution to the project.__
 ## RNA-seq analysis
-* RNA-seq rawdata quality control with **FastQC**, trimming with **fastp**, mapping with **STAR** and counting with **featureCounts**: __RNAseq_upstream_analysis.sh__
-* Differential expression gene analysis with **DESeq2** and GO enrichment with **clusterProfiler**: __RNAseq1_DEG.R__ and __RNAseq1_DEG.R__
+* RNA-seq rawdata quality control with *FastQC*, trimming with *fastp*, mapping with *STAR* and counting with *featureCounts*: __RNAseq_upstream_analysis.sh__
+* Differential expression gene analysis with *DESeq2* and GO enrichment with *clusterProfiler*: __RNAseq1_DEG.R__ and __RNAseq1_DEG.R__
 
 
 ## ATAC-seq analysis
-* ATAC-seq rawdata mapping with **Bowtie2**, deduplicating with **picard**, generate bigWig files with **deepTools** and peak calling with **MACS2**: __ATAC_mapping.snakefile__
-* Counting peaks from upstream analysis with __featureCounts__: __peak_count.sh__ (__keep_regular_chrom.R__ is used for modifying chromosome names in this step)
-* Finding motifs with **HOMER** in different samples of time point: __homer_findmotif.sh__
+* ATAC-seq rawdata mapping with *Bowtie2*, deduplicating with *picard*, generate bigWig files with *deepTools* and peak calling with *MACS2*: __ATAC_mapping.snakefile__
+* Counting peaks from upstream analysis with _featureCounts_: __peak_count.sh__ (__keep_regular_chrom.R__ is used for modifying chromosome names in this step)
+* Finding motifs with *HOMER* in different samples of time point: __homer_findmotif.sh__
 
 
 ## Single-cell RNA-seq analysis
-Single-cell RNA-seq in this project was generated with scMulti-omics sequencing from 10X Gemonics. Only scRNA-seq data was applied for this project currently. Rawdata of Single-cell RNA-seq was processed with __CellRanger-ARC 1.0.1__ and downstream analysis was mainly done with __Seurat (v5.0)__ in __R (4.2.1)__.
+Single-cell RNA-seq in this project was generated with scMulti-omics sequencing from 10X Gemonics. Only scRNA-seq data was applied for this project currently. 
+
+Rawdata of Single-cell RNA-seq was processed with _CellRanger-ARC 1.0.1_ and downstream analysis was mainly done with _Seurat (v5.0)_ in _R (4.2.1)_.
 
 Please submit issues or contact with kourongao@westlake.edu.cn if any questions or other code requests.
