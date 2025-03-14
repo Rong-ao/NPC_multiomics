@@ -8,7 +8,7 @@ Citation is still unpublished.
 __Thanks [@silentFUSU](https://github.com/silentFUSU) for creating parts of scripts and contribution to the project.__
 ## RNA-seq analysis
 * RNA-seq rawdata quality control with *FastQC*, trimming with *fastp*, mapping with *STAR* and counting with *featureCounts*: __RNAseq_upstream_analysis.sh__
-* Differential expression gene analysis with *DESeq2* and GO enrichment with *clusterProfiler*: __RNAseq1_DEG.R__ and __RNAseq1_DEG.R__
+* Differential expression gene analysis with *DESeq2* and GO enrichment with *clusterProfiler*: __RNAseq1_DEG.R__ and __RNAseq2_DEG.R__
 
 
 ## ATAC-seq analysis
